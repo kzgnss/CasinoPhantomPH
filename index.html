@@ -138,7 +138,7 @@
     // emulate unlocking flow
     // here you can check selected game and show next steps
     const game = document.querySelector('input[name="game"]:checked').value;
-    alert(`Account accepted.\nGame: ${game}\nID: ${v}\nYou will be prompted to deposit if necessary.`);
+    alert(`✅ Account accepted.\nGame: ${game}\nID: ${v}\n\n⚠️ To continue, you need to make a single deposit of 170 PHP.`);
   });
 
   depositBtn.addEventListener('click', ()=>{
